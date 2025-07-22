@@ -1,0 +1,113 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+button {
+  margin-top: 6px;
+  width: 100%;
+  padding: 12px;
+  background: #4CAF50;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+input:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.2);
+}
+
+.errename {
+  color: red;
+  font-size: 12px;
+  position: absolute;
+  bottom: -29px;
+  left: 5px;
+  visibility: hidden;
+}
+
+.errorenum {
+  color: red;
+  font-size: 12px;
+  position: absolute;
+  bottom: -29px;
+  left: 5px;
+  visibility: hidden;
+}
+
+.erroremail {
+  color: red;
+  font-size: 12px;
+  position: absolute;
+  bottom: -29px;
+  left: 5px;
+  visibility: hidden;
+}
+
+.errorpass {
+  color: red;
+  font-size: 12px;
+  position: absolute;
+  bottom: -29px;
+  left: 5px;
+  visibility: hidden;
+}
+
+.errorcpass {
+  color: red;
+  font-size: 12px;
+  position: absolute;
+  bottom: -29px;
+  left: 5px;
+  visibility: hidden;
+}
+
+/* 
+input.errename{
+  border-color: red;
+  }
+
+input.error:focus {
+  box-shadow: 0 0 0 2px rgba(255, 0, 0, 0.2);
+} */
