@@ -24,9 +24,9 @@ These are beginner-to-intermediate level projects, perfect for learning by doing
 --
 🧠 Skills Practiced
 
-DOM Manipulation
-Form Validation
-Event Handling
-Responsive Design
-Error Handling
-Clean Code Structure
+- DOM Manipulation
+- Form Validation
+- Event Handling
+- Responsive Design
+- Error Handling
+- Clean Code Structure
