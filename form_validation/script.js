@@ -26,6 +26,11 @@ let submitbtn = ()=>{
         Errnum.style.visibility = "visible"
         return false
     }
+    else if(!(Email.includes("@",".com"))){
+        Errmail.innerText = "Please Enter valid Email"
+        Errmail.style.visibility = "visible"     
+        return false
+    }
     else if(Email == ""){
         Errmail.innerText = "Please Enter Your Email"
         Errmail.style.visibility = "visible"     
@@ -41,10 +46,17 @@ let submitbtn = ()=>{
         Errcpass.style.visibility = "visible"     
         return false
     }
-    else if(Cpass != Pass){
+    else if(Cpass != Pass){ 
         Errcpass.innerText = "Please Enter Correct Confirm Password"
-        Errcpass.style.visibility = "visible"     
+        Errcpass.style.visibility = "visible"
+        document.querySelector("#confirmPassword").value = "" 
+        document.querySelector("#confirmPassword").focus()
         return false
+    }
+    else if( !(Pass.match(/[!@#$%^&*]/) && Pass.match(/[1234567890]/) && Pass.metch(/[a-z]/) && Pass.metch(/[A-Z]/))){
+        Errpass.innerText = "Please Enter Strong Password"
+        Errpass.style.visibility = "visible"     
+        return false    
     }
     
 }

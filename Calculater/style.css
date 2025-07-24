@@ -1,0 +1,6 @@
+/* Removed empty .container ruleset */
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
