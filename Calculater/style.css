@@ -1,6 +1,15 @@
-/* Removed empty .container ruleset */
+
 .container{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+#screen{
+    height: 20px;
+}
+
+table tr td{
+    cursor: pointer;
 }

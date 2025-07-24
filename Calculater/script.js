@@ -11,3 +11,13 @@ let equal = ()=>{
     storage = eval(storage).toString()
     document.querySelector("#screen").innerHTML = storage
 }
+
+let del = ()=>{
+    storage = storage.slice(0,-1)
+    document.querySelector("#screen").innerHTML = storage
+}
+
+let allclear = ()=>{
+    storage = ""
+    document.querySelector("#screen").innerHTML = storage
+}
