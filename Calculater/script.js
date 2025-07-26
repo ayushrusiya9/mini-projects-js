@@ -3,8 +3,6 @@ let storage = ""
 let cal = (value)=>{
     let display = document.querySelector("#screen")
 
-
-
     let ope=['*','+','%',".","-","/"]
     
     let la= storage[storage.length-1]
