@@ -8,7 +8,6 @@ let cal = (value)=>{
     let la= storage[storage.length-1]
 
     if(ope.includes(la) && ope.includes(value)){
-
         return
     }
 
