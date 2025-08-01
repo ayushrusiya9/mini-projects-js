@@ -1,0 +1,49 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #cf1f46, #0072ff);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90vh;
+    width: 100%;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn button{
+    width: 120px;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 10px;
+    cursor: pointer;
+    background: linear-gradient(to right, #d12b2b, #e08530);
+}
+
+.dice,.dice1{
+    width: 300px;
+}
+
+@keyframes shake {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(5px, 0); }
+  50% { transform: translate(-5px, 0); }
+  75% { transform: translate(5px, 0); }
+  100% { transform: translate(0, 0); }
+}
+
+@keyframes shake1 {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(-5px, 0); }
+  50% { transform: translate(5px, 0); }
+  75% { transform: translate(-5px, 0); }
+  100% { transform: translate(0, 0); }
+}
