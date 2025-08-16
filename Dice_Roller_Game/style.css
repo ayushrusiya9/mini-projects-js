@@ -11,8 +11,10 @@ body,html{
     justify-content: space-evenly;
     height: 90vh;
     width: 100%;
-    
+
 }
+
+
 
 .btn{
     display: flex;
